@@ -1,0 +1,44 @@
+Raadius: 1.0
+Kõrgus: 4.0
+
+Kera ümbermõõt (P): 6.283185307179586
+Kera pindala (S): 12.566370614359172
+Kera ruumala (V): 4.1887902047863905
+
+Silindri kogupindala (S): 31.41592653589793
+Silindri külgpindala (Sk): 25.132741228718345
+Silindri ruumala (V): 12.566370614359172
+
+Raadius: 4.0
+Kõrgus: 4.0
+
+Kera ümbermõõt (P): 25.132741228718345
+Kera pindala (S): 201.06192982974676
+Kera ruumala (V): 268.082573106329
+
+Silindri kogupindala (S): 201.06192982974676
+Silindri külgpindala (Sk): 100.53096491487338
+Silindri ruumala (V): 201.06192982974676
+
+Raadius: 3.0
+Kõrgus: 4.0
+
+Kera ümbermõõt (P): 18.84955592153876
+Kera pindala (S): 113.09733552923255
+Kera ruumala (V): 113.09733552923254
+
+Silindri kogupindala (S): 131.94689145077132
+Silindri külgpindala (Sk): 75.39822368615503
+Silindri ruumala (V): 113.09733552923255
+
+Raadius: 12.0
+Kõrgus: 5.0
+
+Kera ümbermõõt (P): 75.39822368615503
+Kera pindala (S): 1809.5573684677208
+Kera ruumala (V): 7238.229473870882
+
+Silindri kogupindala (S): 1281.7698026646356
+Silindri külgpindala (Sk): 376.99111843077515
+Silindri ruumala (V): 2261.946710584651
+

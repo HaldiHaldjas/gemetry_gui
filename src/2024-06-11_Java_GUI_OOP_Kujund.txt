@@ -1,0 +1,29 @@
+11.06.2024 Java GUI OOP Kujundid
+
+
+ÜLESANNE
+--------
+1. Loo gaafiline kasutajaliides kahe geomeetrilise kujundi Kera (Sphere) ja Silinder (Circular Cylinder) arvutamise jaoks. Kera arvutada raadiuse (radius) põhjal ning vastuseks pindala (surface area), ümbemõõt (circumference) ja ruumala (volume). Silinder arvutada raadiuse (radius) ja kõrguse (height) põhjal ning vastuseks kogu pindala (total surface area), külg pindala (lateral surface area) ja ruumala (volume). Mõtle hoolega mida JFramel/JPanel-il kasutad, kuidas näitad, kuidas on teda, et arvutada ühte või teist kujundit.
+2. Mõlemale kujundile tee kujundi klass (objekt) ning kasuta neid ka arvutamise juures (Sphere, Cylinder). Soovitav on, et mõlemad objektid loodakse algandmetega (siis pole Setter-eid vaja). Getter-.id tuleb igaljuhul teha. 
+3. Vastuses peavad olema ka kujundi algandmed.
+4. Lahendus peaks olema võimalikult palju MVC (Model-View-Controller) ja OOP (ObjektOrienteeritud Programmeerimine) põhimõtet.
+5. Elementaarsed kontrollid võiks ikka olemas olla. Numbri asemel teksti kirjutades ei läheks rakendus katki :)
+6. Kasutajaliides on eestikeelne
+7. Kood (muutujad, meetodid, failinimed/klassid) on inglise keelsed
+8. Kommentaarid on eestikeeles
+9. Kui arvutamised õnnestuvad, siis tuleb kogu info kirjutada ka tavalisse tekstifaili (.txt). Faili sisu vaada all pool.
+10. Kasutajaliides peaks näitama tekstifaili asukohta koos nimega
+11. Ühtegi arvutus tulemust EI ümarda.
+12. Tekstifaili sisu hakkab kasvama. Iga õigesti arvutamisega tuleb juurde.
+13. Tekstifaili nimi on "JavaKujundid.txt"
+
+
+TEKSTIFAIL
+----------
+Tekstifaili sisu süntaks. Kujundi nimi on eestikeelne ja algab suure tähega, siis algandmed ja siis vastused. Järjekord nii nagu siin selgitatud/näidatud.
+kujundi nimi;raadius;pindala;ümbermõõt;ruumala
+kujundi nimi;raadius;kõrgus;kogu pindala;külgpindala;ruumala
+
+Näide peaaegu tegelikkusest:
+Kera;12.5;1963.5;78.5398;8181.23
+Silinder;5;7.23;384.217;227.137;567.843
