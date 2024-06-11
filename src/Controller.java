@@ -1,4 +1,3 @@
-import javax.swing.SwingUtilities;
 
 public class Controller {
     private Model model;
@@ -14,19 +13,11 @@ public class Controller {
         view.comboBoxListener(new ComboBoxListener(geometryBoard));
     }
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            Model model = new Model();
-            View view = new View();
-            GeometryBoard geometryBoard = new GeometryBoard();
-            new Controller(model, view, geometryBoard);
-        });
-    }
-
     public void handleFileOperation(String filePath) {
         geometryBoard.setFilePath(filePath);
     }
 }
+
 
 
 // public double getUserInputRadius() {
