@@ -96,6 +96,10 @@ public class ButtonCalculateListener implements ActionListener {
 private void writeResultsToFile(String outpuString){
     try (FileWriter writer = new FileWriter("JavaKujundid.txt", true)){
         writer.write(outpuString + "\n\n");
+        writer.close();
+        String filePath = "geometry_gui/JavaKujundid.txt";
+        controller.handleFileOperation(filePath);
+
         
     } catch (Exception e) {
         view.updateTextArea("Faili kirjutamine ebaõnnestus!\n", false);

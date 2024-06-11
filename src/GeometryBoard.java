@@ -3,7 +3,7 @@ import javax.swing.*;
 
 public class GeometryBoard extends JPanel {
     private JButton btnCalculate;
-    private JLabel lblRadius, lblHeight, lblExplanation, lblShape;
+    private JLabel lblRadius, lblHeight, lblExplanation, lblShape, lblFilePath;
     private JComboBox<String> cmbShapes;
     private JTextArea textArea;
     private JTextField userInputRadius, userInputHeight;
@@ -15,12 +15,11 @@ public class GeometryBoard extends JPanel {
         setLayout(new BorderLayout());
         createComponents();
 
-        // // vaikimisi valik on kera
-        // cmbShapes.setSelectedItem("Kera"); 
-        // userInputHeight.setVisible(false);
-        // lblHeight.setVisible(false);
-        // System.out.println("Default Selected Shape: " + cmbShapes.getSelectedItem());
-
+        // vaikimisi valik
+        cmbShapes.setSelectedItem("Kera"); 
+        userInputHeight.setVisible(false);
+        lblHeight.setVisible(false);
+        System.out.println("Default Selected Shape: " + cmbShapes.getSelectedItem());
 }
 
 private void createComponents() {
@@ -33,7 +32,6 @@ private void createComponents() {
 
     // toppaneel 
     topPanel.setBackground(background);
-    lblExplanation = new JLabel("See rakendus arvutab kera ja silindri ümbermõõte, pindala ja ruumala.");
     topPanel.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
 
     // inputpaneeli omadused
@@ -44,23 +42,20 @@ private void createComponents() {
     resultPanel.setBorder(BorderFactory.createEmptyBorder(5, 10, 10, 5));
 
     // komponendid
+    lblExplanation = new JLabel("See rakendus arvutab kera ja silindri ümbermõõte, pindala ja ruumala.");
     lblShape = new JLabel("Vali kujund");
     lblRadius = new JLabel("Raadius");
     lblHeight = new JLabel("Kõrgus");
+
     userInputRadius = new JTextField(10);
     userInputHeight = new JTextField(10);
     btnCalculate = new JButton("Arvuta");
     textArea = new JTextArea(15, 40);
     textArea.setEditable(false);
     cmbShapes = new JComboBox<>(shapes);
+    lblFilePath = new JLabel("Faili asukoht: ");
 
-    // registreerib kujundivaliku
-
-            // vaikimisi valik on kera
-    cmbShapes.setSelectedItem("Kera"); 
-    userInputHeight.setVisible(false);
-    lblHeight.setVisible(false);
-    System.out.println("Default Selected Shape: " + cmbShapes.getSelectedItem());
+    // komboboksi listener
     comboBoxListener = new ComboBoxListener(this); 
     cmbShapes.addActionListener(comboBoxListener);
 
@@ -76,6 +71,7 @@ private void createComponents() {
 
     // resultpaneeli sisu koos tekstiga
     resultPanel.add(new JScrollPane(textArea));
+    resultPanel.add(lblFilePath);
 
     // String resultText = "Raadius: " + calculatedRadius + "\n";
     // String radiusText = userInputRadius.getText();  // kasutaja sisestatud raadius
@@ -85,6 +81,10 @@ private void createComponents() {
     add(inputPanel, BorderLayout.CENTER);
     add(resultPanel, BorderLayout.SOUTH);
 
+    }
+    // lisab teksti textareasse
+    public void appendText(String text) {
+        textArea.append(text + "\n");
     }
 
     public JTextField getUserInputRadius() {
@@ -119,4 +119,7 @@ private void createComponents() {
         return this;
     }
 
+    public void setFilePath(String filePath) {
+        textArea.append("Faili asukoht: " + filePath + "\n");
+    }
 }

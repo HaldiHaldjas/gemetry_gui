@@ -22,6 +22,10 @@ public class Controller {
             new Controller(model, view, geometryBoard);
         });
     }
+
+    public void handleFileOperation(String filePath) {
+        geometryBoard.setFilePath(filePath);
+    }
 }
 
 
