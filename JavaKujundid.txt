@@ -192,3 +192,21 @@ Kera ümbermõõt (P): 43.982297150257104
 Kera ruumala (V): 1436.7550402417319
 
 
+Raadius: 6.0
+Kera pindala (S): 452.3893421169302
+Kera ümbermõõt (P): 37.69911184307752
+Kera ruumala (V): 904.7786842338603
+
+
+Raadius: 6.0
+Kera pindala (S): 452.3893421169302
+Kera ümbermõõt (P): 37.69911184307752
+Kera ruumala (V): 904.7786842338603
+
+
+Raadius: 7.0
+Kera pindala (S): 615.7521601035994
+Kera ümbermõõt (P): 43.982297150257104
+Kera ruumala (V): 1436.7550402417319
+
+

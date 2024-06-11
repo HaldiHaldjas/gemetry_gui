@@ -25,18 +25,17 @@ public class ButtonCalculateListener implements ActionListener {
         SwingUtilities.invokeLater(() -> {
             view.updateTextArea("", true);
         try {
+            // valitud kujund
+            String selectedShape = (String) geometryBoard.getCmbShapes().getSelectedItem();
+            String shapeInfo = "";
+            System.out.println("Selected Shape (from ButtonCalculateListener): " + selectedShape);
+
             // kasutaja sisestus + parse string double'iks
             String radiusText = view.getUserInputRadius().getText().trim();
             String heightText = view.getUserInputHeight().getText().trim();
             
             double radius = Double.parseDouble(radiusText);
             double height = Double.parseDouble(heightText);
-
-            // Determine which shape is selected
-            String selectedShape = (String) geometryBoard.getCmbShapes().getSelectedItem();
-            String shapeInfo = "";
-            System.out.println("Selected Shape (from ButtonCalculateListener): " + selectedShape);
-
 
             // kera arvutused
             // double sphereSurfaceArea = model.calculateSphereSurfaceArea(radius);

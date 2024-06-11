@@ -8,7 +8,7 @@ public class App {
             View view = new View();
             GeometryBoard geometryBoard = new GeometryBoard();
 
-            // alles kontroller paneb nupud tööle!
+            // kontroller paneb nupud tööle!
             new Controller(model, view, geometryBoard);
 
             view.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // või nr 3

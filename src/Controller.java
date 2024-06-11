@@ -17,19 +17,3 @@ public class Controller {
         geometryBoard.setFilePath(filePath);
     }
 }
-
-
-
-// public double getUserInputRadius() {
-//     String radiusString = view.getUserInputRadius().getText();
-//     return Double.parseDouble(radiusString);
-// }
-
-// public double getUserInputHeight() {
-//     String heightString = view.getUserInputHeight().getText();
-//     return Double.parseDouble(heightString);
-// }
-
-// public void updateTextArea(String text) {
-//     view.getTextArea().append(text);   // Assuming getTextArea exists in View
-// }

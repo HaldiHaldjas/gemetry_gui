@@ -15,7 +15,7 @@ public class ComboBoxListener implements ActionListener {
         String selectedShape = (String) geometryBoard.getCmbShapes().getSelectedItem();
         // System.out.println("ActionPerformed called");
 
-        System.out.println("Selected Shape (from ComboBoxListener): " + selectedShape);
+        System.out.println("Valitud kujund (ComboBoxListener): " + selectedShape);
         
         // teeb sisestuskastid uueks valikuks tyhjaks
         geometryBoard.getUserInputRadius().setText("");
@@ -26,13 +26,13 @@ public class ComboBoxListener implements ActionListener {
             geometryBoard.getLblHeight().setVisible(false);
             geometryBoard.getUserInputRadius().setVisible(true);
             geometryBoard.getLblRadius().setVisible(true);
-            System.out.println("Calculating for Kera...");
+            System.out.println("Kera arvutama");
         } else if (selectedShape.equals("Silinder")) {
             geometryBoard.getUserInputRadius().setVisible(true);
             geometryBoard.getLblRadius().setVisible(true);
             geometryBoard.getUserInputHeight().setVisible(true);
             geometryBoard.getLblHeight().setVisible(true);
-            System.out.println("Calculating for Silinder...");
+            System.out.println("Silindrit arvutama");
         }
     }
 }
