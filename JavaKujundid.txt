@@ -84,3 +84,75 @@ Kera ümbermõõt (P): 43.982297150257104
 Kera ruumala (V): 1436.7550402417319
 
 
+Raadius: 4.0
+Kera pindala (S): 201.06192982974676
+Kera ümbermõõt (P): 25.132741228718345
+Kera ruumala (V): 268.082573106329
+
+
+Raadius: 6.0
+Kera pindala (S): 452.3893421169302
+Kera ümbermõõt (P): 37.69911184307752
+Kera ruumala (V): 904.7786842338603
+
+
+Raadius: 7.0
+Kera pindala (S): 615.7521601035994
+Kera ümbermõõt (P): 43.982297150257104
+Kera ruumala (V): 1436.7550402417319
+
+
+Raadius: 6.0
+Kera pindala (S): 452.3893421169302
+Kera ümbermõõt (P): 37.69911184307752
+Kera ruumala (V): 904.7786842338603
+
+
+Raadius: 6.0
+Kera pindala (S): 452.3893421169302
+Kera ümbermõõt (P): 37.69911184307752
+Kera ruumala (V): 904.7786842338603
+
+
+Raadius: 8.0
+Kera pindala (S): 804.247719318987
+Kera ümbermõõt (P): 50.26548245743669
+Kera ruumala (V): 2144.660584850632
+
+
+Raadius: 7.0
+Kera pindala (S): 615.7521601035994
+Kera ümbermõõt (P): 43.982297150257104
+Kera ruumala (V): 1436.7550402417319
+
+
+Raadius: 8.0
+Kera pindala (S): 804.247719318987
+Kera ümbermõõt (P): 50.26548245743669
+Kera ruumala (V): 2144.660584850632
+
+
+Raadius: 8.0
+Kera pindala (S): 804.247719318987
+Kera ümbermõõt (P): 50.26548245743669
+Kera ruumala (V): 2144.660584850632
+
+
+Raadius: 8.0
+Kera pindala (S): 804.247719318987
+Kera ümbermõõt (P): 50.26548245743669
+Kera ruumala (V): 2144.660584850632
+
+
+Raadius: 8.0
+Kera pindala (S): 804.247719318987
+Kera ümbermõõt (P): 50.26548245743669
+Kera ruumala (V): 2144.660584850632
+
+
+Raadius: 8.0
+Kera pindala (S): 804.247719318987
+Kera ümbermõõt (P): 50.26548245743669
+Kera ruumala (V): 2144.660584850632
+
+

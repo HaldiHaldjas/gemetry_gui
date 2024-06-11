@@ -26,8 +26,8 @@ public class ButtonCalculateListener implements ActionListener {
             view.updateTextArea("", true);
         try {
             // kasutaja sisestus + parse string double'iks
-            String radiusText = view.getUserInputRadius().getText();
-            String heightText = view.getUserInputHeight().getText();
+            String radiusText = view.getUserInputRadius().getText().trim();
+            String heightText = view.getUserInputHeight().getText().trim();
             
             double radius = Double.parseDouble(radiusText);
             double height = Double.parseDouble(heightText);
@@ -35,6 +35,8 @@ public class ButtonCalculateListener implements ActionListener {
             // Determine which shape is selected
             String selectedShape = (String) geometryBoard.getCmbShapes().getSelectedItem();
             String shapeInfo = "";
+            System.out.println("Selected Shape (from ButtonCalculateListener): " + selectedShape);
+
 
             // kera arvutused
             // double sphereSurfaceArea = model.calculateSphereSurfaceArea(radius);

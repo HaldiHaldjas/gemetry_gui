@@ -7,7 +7,6 @@ public class GeometryBoard extends JPanel {
     private JComboBox<String> cmbShapes;
     private JTextArea textArea;
     private JTextField userInputRadius, userInputHeight;
-    
     private static final String[] shapes = {"Kera", "Silinder"};
     private ComboBoxListener comboBoxListener;
 
@@ -16,16 +15,17 @@ public class GeometryBoard extends JPanel {
         setLayout(new BorderLayout());
         createComponents();
 
-        // vaikimisi valik on kera
-        cmbShapes.setSelectedItem("Kera");
-        userInputHeight.setVisible(false);
-        lblHeight.setVisible(false);
+        // // vaikimisi valik on kera
+        // cmbShapes.setSelectedItem("Kera"); 
+        // userInputHeight.setVisible(false);
+        // lblHeight.setVisible(false);
+        // System.out.println("Default Selected Shape: " + cmbShapes.getSelectedItem());
+
 }
 
 private void createComponents() {
     Color background = new Color(196, 232, 003);
     Color resultBackground = new Color(196, 223, 003);
-    // Color textbgr = new Color(167, 223, 21);
 
     JPanel topPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
     JPanel inputPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
@@ -55,7 +55,13 @@ private void createComponents() {
     cmbShapes = new JComboBox<>(shapes);
 
     // registreerib kujundivaliku
-    comboBoxListener = new ComboBoxListener(this); // Pass reference to this GeometryBoard
+
+            // vaikimisi valik on kera
+    cmbShapes.setSelectedItem("Kera"); 
+    userInputHeight.setVisible(false);
+    lblHeight.setVisible(false);
+    System.out.println("Default Selected Shape: " + cmbShapes.getSelectedItem());
+    comboBoxListener = new ComboBoxListener(this); 
     cmbShapes.addActionListener(comboBoxListener);
 
     topPanel.add(lblExplanation);
