@@ -17,7 +17,7 @@ public class GeometryBoard extends JPanel {
         createComponents();
 
         // vaikimisi valik on kera
-        cmbShapes.setSelectedItem("Sphere");
+        cmbShapes.setSelectedItem("Kera");
         userInputHeight.setVisible(false);
         lblHeight.setVisible(false);
 }

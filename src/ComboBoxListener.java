@@ -11,13 +11,17 @@ public class ComboBoxListener implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        
         String selectedShape = (String) geometryBoard.getCmbShapes().getSelectedItem();
-        if (selectedShape.equals("Sphere")) {
+        System.out.println("ActionPerformed called");
+        System.out.println("Selected Shape: " + selectedShape); 
+        
+        if (selectedShape.equals("Kera")) {
             geometryBoard.getUserInputHeight().setVisible(false);
             geometryBoard.getLblHeight().setVisible(false);
             geometryBoard.getUserInputRadius().setVisible(true);
             geometryBoard.getLblRadius().setVisible(true);
-        } else if (selectedShape.equals("Cylinder")) {
+        } else if (selectedShape.equals("Silinder")) {
             geometryBoard.getUserInputRadius().setVisible(true);
             geometryBoard.getLblRadius().setVisible(true);
             geometryBoard.getUserInputHeight().setVisible(true);

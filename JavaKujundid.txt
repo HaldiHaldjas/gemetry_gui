@@ -42,3 +42,45 @@ Silindri kogupindala (S): 1281.7698026646356
 Silindri külgpindala (Sk): 376.99111843077515
 Silindri ruumala (V): 2261.946710584651
 
+Raadius: 2.0
+Kera pindala (S): 50.26548245743669
+Kera ümbermõõt (P): 12.566370614359172
+Kera ruumala (V): 33.510321638291124
+
+
+Raadius: 2.0
+Kera pindala (S): 50.26548245743669
+Kera ümbermõõt (P): 12.566370614359172
+Kera ruumala (V): 33.510321638291124
+
+
+Raadius: 2.0
+Kera pindala (S): 50.26548245743669
+Kera ümbermõõt (P): 12.566370614359172
+Kera ruumala (V): 33.510321638291124
+
+
+Raadius: 2.0
+Kera pindala (S): 50.26548245743669
+Kera ümbermõõt (P): 12.566370614359172
+Kera ruumala (V): 33.510321638291124
+
+
+Raadius: 7.0
+Kera pindala (S): 615.7521601035994
+Kera ümbermõõt (P): 43.982297150257104
+Kera ruumala (V): 1436.7550402417319
+
+
+Raadius: 7.0
+Kera pindala (S): 615.7521601035994
+Kera ümbermõõt (P): 43.982297150257104
+Kera ruumala (V): 1436.7550402417319
+
+
+Raadius: 7.0
+Kera pindala (S): 615.7521601035994
+Kera ümbermõõt (P): 43.982297150257104
+Kera ruumala (V): 1436.7550402417319
+
+
